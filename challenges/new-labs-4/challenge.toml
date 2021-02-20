@@ -1,0 +1,9 @@
+slug = "new-labs-4"
+title = "New Labs 4"
+author = "Steph"
+value = 45
+description = """It seems that CY_Labs has really been  trying to beef up their security, so much so that we can no longer steal information from the legendary_report table! This won’t do, we need that data! Luckily, according to our inside source, the data may have just been transferred to a hidden table. We need you to locate the data and find the date of the last sighting in Reykjavik. (footnote : ignore any accents in names) Submit the flag in the format flag{month_year}, lowercase. (ex: flag{march_1997})"""
+tags = [ "sql" ]
+files = []
+flag = "flag{february_2003}"
+enabled = true
