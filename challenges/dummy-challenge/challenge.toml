@@ -1,0 +1,9 @@
+slug = "feedback-intro-to-web"
+title = "Intro to Web Workshop Feedback"
+author = "Peter"
+value = 5
+description = """A feedback form for your flag [please](https://forms.gle/DpMohPXKsTp2bwoSA)."""
+tags = ["feedback"]
+files = []
+flag = "flag{new_year_new_workshops}"
+enabled = false
