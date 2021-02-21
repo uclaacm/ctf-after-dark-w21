@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+
+      <form action="/info" class="navbutton" method="get">
+        <button type="submit">Info</button>
+      </form>
+
+      <form action="/blog" class="navbutton" method="get">
+        <button type="submit">Blog</button>
+      </form>
+
+      <form action="/user_home" class="navbutton" method="get">
+        <button type="submit">User</button>
+      </form>
+
+      <form action="/index_check" class="navbutton" method="get">
+        <button type="submit">Login</button>
+      </form>
+
+      <h4>CY_LABS</h4>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+
+    <span onclick="openNav()">
+      <div class="vl">
+        <br />
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </span>
+
+    <div id="main">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <header>
+        <h5>LOCKDOWN Protocol Activated</h5>
+        CY_LABS
+      </header>
+      <h1>
+        <marquee behavior="scroll" direction="right" scrollamount="13">
+          <img
+            src="media/baby.gif"
+            width="300px"
+            alt="sorry no flags or gifs here :("
+          />
+        </marquee>
+
+        Here's a cute dog :)
+      </h1>
+      <br /><br />
+
+      <table
+        class="table2"
+        style="
+          background-color: rgb(211, 99, 55);
+          box-shadow: 2px 2px 5px rgb(122, 0, 0);
+          font-size: larger;
+        "
+      >
+        <tr>
+          <th>
+            <h1 style="padding: 5px; color: white; font-size: xx-large">
+              About us
+            </h1>
+          </th>
+        </tr>
+      </table>
+
+      <table class="table2" cellspacing="10">
+        <br />
+        <tr class="table2">
+          <th class="table2" style="width: 30%">
+            <h1>
+              <br />
+              What we do
+            </h1>
+          </th>
+          <th class="table2" style="width: 30%">
+            <h1>
+              <br />
+              Who we are and how we began
+            </h1>
+          </th>
+          <th class="table2" style="width: 40%">
+            <h1>
+              <br />
+              A little about our founder
+            </h1>
+          </th>
+        </tr>
+
+        <tr class="table2">
+          <td class="table2">
+            <p>
+              We make gifs! (Sort of) <br />
+              CY_LABS is a small company dedicated to inventing and producing
+              the highest quality animated pixel gifs! <br />
+              Whether it be design and user experience or behind the scenes
+              animation and coding, we do it all! <br />
+              In recent years as well, we have been researching the ever elusive
+              legendary gifs, and are as of now the only company to be so close
+              to reproducing them. <br />
+              <br />
+            </p>
+          </td>
+          <td class="table2">
+            <p>
+              We are a small group of animators, designers, artists, scientists
+              and computer engineering experts who all share a common interest :
+              pixel gifs.<br />
+              We started out as a small club and have since grown to a giant
+              company, gaining a monopoly over the entire gif industry.
+              <br /><br />
+            </p>
+          </td>
+          <td class="table2">
+            <p>
+              Cye Bert, master animator, founded the company in 1987 with the
+              discovery of the first gif. <br />
+              From there, they worked tirelessly to build this empire, creating
+              some of the most renouned gifs to date. <br />
+              Now you might think, how can one person accomplish so much? <br />
+              <br />
+              Well, originating from Ontario, Bert was present for the first
+              sighting of a legendary gif. <br />
+              As Cye later recalls, this sparked their curiosity towards gifs,
+              and they have never looked back since <br /><br />
+            </p>
+          </td>
+        </tr>
+      </table>
+
+      <table class="table2" cellspacing="10">
+        <br />
+        <tr class="table2">
+          <td class="table2" style="width: 50%">
+            <h1>
+              <p>
+                Interested in pixel art and want to learn more? Become an
+                employee and gain access to our employee blog!
+              </p>
+            </h1>
+          </td>
+          <td class="table2" style="width: 50%">
+            <img
+              src="media/leafy_boi_3.gif"
+              alt="sorry no flags or gifs here :("
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

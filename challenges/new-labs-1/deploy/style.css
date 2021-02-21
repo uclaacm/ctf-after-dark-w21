@@ -1,0 +1,388 @@
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: #e6d1d1;
+}
+
+p {
+  text-align: center;
+  font-size: medium;
+  padding: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 50%;
+  padding: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**************************************** TABLES ****************************************/
+
+table.table1 {
+  width: 100%;
+}
+
+th.table1 {
+  align-content: center;
+  object-position: center;
+  object-fit: contain;
+  width: 50%;
+}
+
+td.table1 {
+  align-content: center;
+  object-position: center;
+  object-fit: contain;
+  width: 50%;
+}
+
+table.table2 {
+  width: 100%;
+}
+
+tr.table2 {
+  align-content: center;
+}
+
+th.table2 {
+  box-shadow: 2px 2px 5px rgb(122, 0, 0);
+  padding: 16px;
+  background-color: #eb9c9c;
+  object-position: center;
+  align-content: center;
+}
+
+td.table2 {
+  box-shadow: 2px 2px 5px rgb(122, 0, 0);
+  padding: 0px 10px 0px 10px;
+  background-color: #eb9c9c;
+  object-position: center;
+  text-align: center;
+  align-content: center;
+}
+
+/************************* FONTS AND DIFFERENT TEXT TYPES ***************************/
+
+header {
+  text-align: center;
+  background-color: #e6d1d1;
+  padding: 16px;
+  font-size: xx-large;
+  text-shadow: 2px 2px 5px rgb(194, 61, 9);
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h1 {
+  text-align: center;
+  font-size: larger;
+}
+
+h2 {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+h3 {
+  text-align: left;
+  font-size: larger;
+}
+
+h4 {
+  text-align: center;
+  background-color: #111;
+  color: rgb(214, 214, 214);
+  padding: 16px;
+  font-size: xx-large;
+  text-shadow: 2px 2px 5px rgb(194, 61, 9); /* red */
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h5 {
+  animation: blink 0.5s step-end infinite alternate;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(122, 0, 0);
+  color: #111;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h6 {
+  margin-bottom: -4px;
+  margin-top: 16px;
+  text-align: center;
+  background-color: rgb(211, 99, 55); /* red */
+  text-shadow: 2px 2px 5px rgb(122, 0, 0);
+  color: white;
+  box-shadow: 2px 2px 5px rgb(122, 0, 0);
+  padding: 16px;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/***************************** INPUT BLOCKS FOR USER AND PASS + INDEX PAGE ******************************/
+
+input[type="text"],
+input[type="password"] {
+  border-radius: 25px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.unauthorized {
+  background-color: orange;
+}
+
+.error {
+  background-color: red;
+}
+
+/************************* BUTTON FORMATTING *********************************/
+
+button {
+  border-radius: 25px;
+  background-color: rgb(194, 61, 9);
+  color: #f1f1f1;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+button1 button {
+  box-shadow: 2px 2px 5px rgb(122, 0, 0);
+  border-radius: 25px;
+  background-color: rgb(194, 61, 9);
+  color: #f1f1f1;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/************** SIDEBAR TO THE LEFT TO ACCESS NAV BAR ****************************************/
+
+.vl {
+  border-left: 16px;
+  height: 100%;
+  position: fixed;
+  margin-left: 10px;
+  top: 0;
+}
+
+.bar {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/********************************* SIDE NAVIGATION FORMATTING  ****************************/
+
+.navbutton button {
+  left: 32px;
+  background-color: #111;
+  overflow-x: hidden;
+  border-radius: 0px;
+  border: hidden;
+  padding: 8px 8px 8px;
+  font-size: 25px;
+  color: rgb(126, 126, 126);
+  transition: 0.3s;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: left;
+  width: 100%;
+}
+
+.navbutton button:hover {
+  left: 32px;
+  overflow-x: hidden;
+  border-radius: 0px;
+  border: hidden;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(126, 126, 126);
+  display: block;
+  transition: 0.3s;
+  background-color: rgb(211, 99, 55);
+  color: #f1f1f1;
+  width: 100%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 0px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(126, 126, 126);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a.active {
+  background-color: rgb(194, 61, 9);
+  color: #f1f1f1;
+}
+
+.sidenav a:hover:not(.active) {
+  background-color: rgb(126, 126, 126);
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: right;
+  top: 0px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 160px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+/******************************** BLOG CSS **************************************/
+
+.row {
+  margin-top: 20px;
+  width: 100%;
+  overflow: hidden;
+  float: center;
+}
+
+.leftcolumn {
+  float: center;
+  width: 100%;
+}
+
+.fakeimg {
+  padding: 20px;
+  object-fit: contain;
+}
+
+.card {
+  background-color: #eb9c9c;
+  padding: 5%;
+  margin-right: 10px;
+  margin-top: 0px;
+  width: 100%;
+  box-shadow: 2px 2px 5px rgb(122, 0, 0);
+}
+
+.text_card {
+  width: 90%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgb(122, 0, 0);
+  background: rgb(211, 99, 55);
+  margin-top: 20px;
+}
+.nothing {
+  width: 100%;
+  text-align: center;
+}
+.notes {
+  width: 75%;
+  padding: 20px;
+  text-align: center;
+  background: rgb(202, 142, 118);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login {
+  width: 75%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/************************************ FOR DIFFERENT SCREEN TYPES ***************************************/
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    color: rgb(194, 61, 9);
+    text-shadow: 1px 1px 1px rgb(37, 35, 35);
+  }
+}

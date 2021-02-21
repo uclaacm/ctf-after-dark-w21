@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+
+      <form action="/info" class="navbutton" method="get">
+        <button type="submit">Info</button>
+      </form>
+
+      <form action="/blog" class="navbutton" method="get">
+        <button type="submit">Blog</button>
+      </form>
+
+      <form action="/user_home" class="navbutton" method="get">
+        <button type="submit">User</button>
+      </form>
+
+      <form action="/index_check" class="navbutton" method="get">
+        <button type="submit">Login</button>
+      </form>
+
+      <h4>CY_LABS</h4>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+
+    <span onclick="openNav()">
+      <div class="vl">
+        <br />
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </span>
+
+    <div id="main">
+      <h5>LOCKDOWN Protocol Activated</h5>
+      <header>
+        CY_LABS
+        <br />
+      </header>
+
+      <h6>TODAY'S EMPLOYEE BLOG</h6>
+      <div class="footer">
+        Warning! to all employees: <br />
+        A data breach has been detected, please be vigilant!
+      </div>
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>USER NAMING CONVENTION: STOP CHANGING YOUR USERNAMES</h2>
+
+            <table class="table1">
+              <tr>
+                <th></th>
+              </tr>
+              <tr>
+                <td style="object-position: center">
+                  <div class="fakeimg">
+                    <img
+                      src="media/beware.gif"
+                      width="1200px"
+                      alt="sorry no flags or gifs here :("
+                    />
+                  </div>
+                </td>
+                <td>
+                  <div class="text_card">
+                    <p>
+                      Your usernames should all be of the form
+                      firstInitial_lastName. For example, Miranda Reyes'
+                      username is m_reyes. To whomever this is applicable:
+                      please stop changing this username to your own custom one
+                      or you will be banned from the employee lounge
+                      indefinitely.
+                    </p>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <br />
+          <div class="card">
+            <h2>UX TEAM FORCED TO WORK ON SITE SECURITY</h2>
+
+            <table class="table1">
+              <tr>
+                <td style="width: 60%">
+                  <div class="text_card">
+                    <p>
+                      With the recent security breaches at CY_LABS, the security
+                      team is overwhelmed with work. Consequently, we have been
+                      forced to ask our UI/UX team to increase security
+                      measures. Since they aren't security engineers, there may
+                      be flaws in their work. They have asked me to keep an eye
+                      out for any hidden debug fields that they may have
+                      forgotten to remove. If you find any, please report them
+                      to me by calling my cell number repeadedly until I pick
+                      up.
+                    </p>
+                  </div>
+                </td>
+                <td style="width: 40%">
+                  <div class="fakeimg">
+                    <img
+                      src="media/baby2.0.gif"
+                      width="300px"
+                      alt="sorry no flags or gifs here :("
+                    />
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <br />
+          <div class="card">
+            <h2>THIS MONTH'S UPDATE ON "WHERE'S BERT?"</h2>
+
+            <table class="table1">
+              <br />
+              <tr>
+                <td style="width: 50%">
+                  <div class="fakeimg">
+                    <img
+                      src="media/woool.gif"
+                      width="300px"
+                      alt="sorry no flags or gifs here :("
+                    />
+                    <br />
+                  </div>
+                </td>
+                <td style="width: 50%">
+                  <div class="text_card">
+                    <p>
+                      Here we are once again to answer the question : <br />
+                      <i> Where is Cye Bert?</i> <br />
+                      As they scour the globe, following rumors of legendary
+                      gifs, we are lucky enough to recieve updates every so
+                      often. <br />
+                      Our last update originates from <br />
+                      <i> ..... drumroll please ......... </i> <br />
+                      Reykjavík!! <br />
+                      Not much news otherwise, except that the founder is
+                      rumored to be searching for assistants to help them
+                      decipher a new clue that they discovered!
+                      <br />
+                      Thank you for reading our monthly update ! <br />
+                      And if you ever hear testimony of a sighting, be sure to
+                      add the time and place into the legendary_report table.
+                      <br />
+                      Update on the legendary_report table : due to the security
+                      risk, we are temporarily closing all access to the report
+                      table.
+                      <br /><br />
+                      <i>
+                        P.S. don't worry the legendary_report table will be back
+                        up soon! (hopefully)</i
+                      >
+                    </p>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <br />
+        </div>
+      </div>
+      <div class="footer">
+        <h2>Thank you for reading today's post :)</h2>
+      </div>
+    </div>
+  </body>
+</html>
