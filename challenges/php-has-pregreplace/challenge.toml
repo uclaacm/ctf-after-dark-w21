@@ -1,0 +1,9 @@
+slug = "php-has-pregreplace"
+title = "PHP has preg_replace"
+author = "Matt"
+value = 5
+description = """In which version of PHP was the '\e' modifier for preg_replace() first deprecated? Format your answer as flag{X.X.X} where X.X.X is the version number."""
+tags = [ "PHP" ]
+files = []
+flag = "flag{5.5.0}"
+enabled = true
