@@ -1,0 +1,9 @@
+slug = "eval-hell"
+title = "Eval Hell"
+author = "Matt"
+value = 10
+description = """Hmm, we caught your browser downloading a suspicious [javascript file](not_malware.js), but we can't seem to figure out what it does. Can you take a look and tell us?"""
+tags = [ "intro" ]
+files = [ "not_malware.js" ]
+flag = "flag{0bfusCat10n_n4tioN}"
+enabled = true
