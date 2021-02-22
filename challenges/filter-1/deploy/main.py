@@ -6,7 +6,7 @@ from uuid import uuid4
 import re
 
 app = Flask(__name__)
-level = int(environ['XSS_LEVEL'])
+level = 3
 redis = StrictRedis(
 	host=environ.get('REDIS_HOST', 'localhost'),
 	port=environ.get('REDIS_PORT', '6379'),
