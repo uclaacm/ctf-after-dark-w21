@@ -1,0 +1,9 @@
+slug = "okey-dokey"
+title = "Okey Dokey"
+author = "Kimberly"
+value = 20
+description = "ok, okay, kk, k, okie dokie are all inferior to [okey dokey](dummy/okey-dokey)"
+tags = [ "intro" ]
+files = []
+flag = "flag{iwants0m3ch33s3cak3}"
+enabled = true
