@@ -1,0 +1,3 @@
+Does someone know of some way to store usernames and passwords that isn't
+in a .txt file? I just thought that would be an easy way of doing things.
+No one can just look at users.txt right?

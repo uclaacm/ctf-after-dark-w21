@@ -1,0 +1,17 @@
+I have a weird bug on the Spotify client that has so
+far happened on AndroidTV and on Windows.
+
+Every once in a while, the music in my queue will stop,
+and it will be replaced by an episode of the Joe Rogan podcast
+(and about 6 more episodes where my music queue used to be).
+It is always the same episodes in the same order.
+
+I do not listen to Joe Rogan. I have never listened to Joe Rogan.
+I might listen to Joe Rogan in the future, but I'd prefer to be
+able to select the time and the place.
+
+I found a few other mentions of this bug on the Spotify forums
+but no one has ever posted a solution or acknowledgment. Has
+this happened to you? Is anywhere safe from Joe?
+
+Please respond.

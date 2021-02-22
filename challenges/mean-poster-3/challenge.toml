@@ -1,0 +1,9 @@
+slug = "mean-poster-3"
+title = "Mean Poster 3"
+author = "Luke"
+value = 20
+description = """Can you go to this [site](http://meanposter.acmcyber.com:10000/) a third time and find out who has made the most posts?"""
+tags = [ "php" ]
+files = []
+flag = "flag{ph1l_}"
+enabled = true
