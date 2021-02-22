@@ -1,0 +1,9 @@
+slug = "new-labs-3.5"
+title = "New Labs 3.5"
+author = "Peter"
+value = 35
+description = """Reconnaissance shows that there is a table containing the dark secrets of the former IT admin named Stewie, but it appears that there is no query that issues statements to this table. Unfortunately, you will have to find the name of this table and how to issue commands to it in order to grab the data you need."""
+tags = [ "sql" ]
+files = []
+flag = "flag{if_you_were_on_an_island}"
+enabled = true

@@ -22,6 +22,13 @@ db.serialize(function () {
   db.run(
     "INSERT INTO user VALUES ('c_bert', 'legen_dary', 'Founder Cye Bert', '09/07/1970', 'Ontario',  ' Latest update on the search for legendaries : (Berlin 02.13.21) I found a clue that reads flag{f0ll0w_th3_s0urc3} . I wonder what it could mean? ', 'protected')"
   );
+  db.run("CREATE TABLE unreachable_table (name TEXT, password TEXT, secret TEXT)");
+  db.run(
+    "INSERT INTO unreachable_table VALUES('geronimo', 'abcde1234', 'I like ranch on pizza.')"
+  );
+  db.run(
+    "INSERT INTO unreachable_table VALUES('stewie', 'kiwitoast', 'I would rather starve than eat candy.')"
+  );
   db.run("CREATE TABLE employee_passwords (name TEXT, password TEXT)");
   db.run(
     "INSERT INTO employee_passwords VALUES ('Rick James', 'I/PgvFo+euFhyeKIy5I54sZI6u/zFDuY/zZVCctzZzc=')"
