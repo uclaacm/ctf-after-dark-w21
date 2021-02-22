@@ -1,0 +1,16 @@
+slug = "xsspaghetti"
+title = "XSSpaghetti"
+author = "Aarin"
+value = 10
+description = """A couple days after Nevel fails to steal Spencer's spaghetti tacos, he comes up with a new plan: use cross site scripting! Nevel attempts to delete Spencer's account with the following injection:
+
+<script>deleteAccount("Spencer")</script>
+
+But when he runs the script, it doesn't work! As it turns out, the Spaghetti Taco Bank ALSO has XSS protection installed, so it processed an encoded version of Nevel's script instead! Using standard practice of HTML encoding, what input did the Spaghetti Taco Bank website ACTUALLY process?
+
+Please format your answer as flag{answer}.
+"""
+tags = ["trivia"]
+files = []
+flag = "flag{&lt;script&gt;deleteAccount(&quot;Spencer&quot;)&lt;/script&gt;}"
+enabled = true
