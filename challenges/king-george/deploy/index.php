@@ -23,7 +23,7 @@ Here are some examples of what you can post:
 I LOVE KING GEORGE! <br>
 that's MY KING right there &lt3 <br>
 best king that i've ever had in my life <br>
-All praise the mighty King George, and let us all be humbled by his presense should he ever decide to step out of his fabulous palace.
+All praise the mighty King George, and let us all be humbled by his presence should he ever decide to step out of his fabulous palace.
 </p>
 <p>
 I'm pretty sure that all the inputs are sanitized. At least that's what my scribe told me. Sometimes he gets a little lazy, so I might need to chop his head off later. What a <i><comment>special character</comment></i>, am I right?
