@@ -1,0 +1,11 @@
+slug = "filter-3"
+title = "Filter 3.0"
+author = "Stephen"
+value = 50
+description = """Finally! I've made the ultimate filter, the one I was trying to create all along. *THIS* one is unbreakable. Good luck.
+
+Really wanna give it one more go? My latest invincible filter is protecting the most super-uber-duper-secret flag yet, on this [site](http://filter3.acmcyber.com:10000). Of course, since your links won't do anything anyways, feel free to report them to me [here](http://acmcyber.com:10001)."""
+tags = ["xss"]
+files = []
+flag = "flag{what_did_you_u&#0115e}"
+enabled = true
