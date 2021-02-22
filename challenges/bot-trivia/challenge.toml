@@ -1,0 +1,9 @@
+slug = "bot-trivia"
+title = "Bot Trivia"
+author = "Matt"
+value = 10
+description = """What is the User Agent of the last bot explicitly allowed to access /imgres by Google's robot exclusion standard?"""
+tags = [ "intro" ]
+files = []
+flag = "flag{facebookexternalhit}"
+enabled = true
