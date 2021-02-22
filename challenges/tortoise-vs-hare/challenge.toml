@@ -1,0 +1,9 @@
+slug = "tortoise-vs-hare"
+title = "Tortoise vs Hare"
+author = "Jeffrey"
+value = 30
+description = """Man, sometimes the world is unfair. There has to be some way to let the tortoise [win](http://tortoisevshare.acmcyber.com:10000/). PHP code [here](index.php). """
+tags = [ "php" ]
+files = ["index.php"]
+flag = "flag{@r0und_AnD_ar0und_deY_G0}"
+enabled = true
