@@ -1,0 +1,9 @@
+slug = "mean-poster-2"
+title = "Mean Poster 2"
+author = "Luke"
+value = 20
+description = """Can you go to this [site](http://meanposter.acmcyber.com:10000/) again and find the admin's password? I want to make sure that whoever said I'm not a real gamer can't ever do that again."""
+tags = [ "php" ]
+files = []
+flag = "flag{bk2m&Gf4@%U9D#us}"
+enabled = true

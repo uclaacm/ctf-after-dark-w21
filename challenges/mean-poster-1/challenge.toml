@@ -1,0 +1,9 @@
+slug = "mean-poster-1"
+title = "Mean Poster 1"
+author = "Luke"
+value = 20
+description = """I found someone on this [site](http://meanposter.acmcyber.com:10000/) saying I'm not a real gamer. Can you figure out who made the post and give me their username?"""
+tags = [ "php" ]
+files = []
+flag = "flag{xX_N00B_D35TR0Y3R_Xx}"
+enabled = true
