@@ -6,7 +6,7 @@ from uuid import uuid4
 import re
 
 app = Flask(__name__)
-level = 3
+level = 2#int(environ['XSS_LEVEL'])
 redis = StrictRedis(
 	host=environ.get('REDIS_HOST', 'localhost'),
 	port=environ.get('REDIS_PORT', '6379'),
@@ -24,28 +24,25 @@ camelTriggers = ["Script", "onAbort", "onBlur", "onChange", "onClick", "onDblCli
         "onSubmit", "onUnload", "Javascript", "javaScript", "JavaScript"]
 
 
-def sanitize(data):
+def filter(data):
         if (level == 1):
             for trig in triggers:
-                Trig = "O"+trig[1:]
+                Trig = trig[0].upper()+trig[1:]
                 data = data.replace(trig,"")
                 data = data.replace(Trig,"")
             for trig in camelTriggers:
-                Trig = "O"+trig[1:]
+                Trig = trig[0].upper()+trig[1:]
                 data=data.replace(trig,"")
                 data=data.replace(Trig,"")
-                #classic cAsE dOdGiNg
         elif (level == 2):
             for trig in triggers:
                 data = re.sub(trig,"",data, flags=re.IGNORECASE)
-                #classic wedging
         elif (level == 3):
             for trig in triggers:
                 while(re.search(trig,data,flags=re.IGNORECASE)):
                     data=re.sub(trig,"",data, flags=re.IGNORECASE)
-                    #this took way too long to find <object data=java&#0115;cript:alert(1)> *
-        #elif (level == 4):
-        #    data=re.sub(r"[a-zA-Z]","",data)
+        else:
+            data=""
         return data
 
 @app.route('/')
@@ -56,15 +53,17 @@ def index():
 def submit():
 	data = request.form['input']
 	uuid = str(uuid4())
-	redis.set(uuid, sanitize(data).encode())
+	redis.set(uuid, filter(data).encode())
 	return redirect(f'/post/{uuid}')
+
+@app.route('/view', methods=['POST'])
+def view():
+    return render_template('source.html', level = level)
 
 @app.route('/post/<uuid>')
 def level1(uuid):
 	if redis.exists(uuid):
 		resp = make_response(render_template('post.html', post=redis.get(uuid).decode()))
-		#if level == 5:
-		#	resp.headers['Content-Security-Policy'] = 'script-src google.com *.google.com'
 		return resp
 	abort(404)
 
