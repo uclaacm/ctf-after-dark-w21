@@ -6,7 +6,7 @@ from uuid import uuid4
 import re
 
 app = Flask(__name__)
-level = 2#int(environ['XSS_LEVEL'])
+level = int(environ['XSS_LEVEL'])
 redis = StrictRedis(
 	host=environ.get('REDIS_HOST', 'localhost'),
 	port=environ.get('REDIS_PORT', '6379'),
@@ -17,11 +17,11 @@ triggers = ["script", "onabort", "onblur", "onchange", "onclick", "ondblclick",
         "onkeyup", "onload", "onmousedown", "onmousemove", "onmouseout",
         "onmouseover", "onmouseup", "onmove", "onreset", "onresize", "onselect",
         "onsubmit", "onunload", "javascript"]
-camelTriggers = ["Script", "onAbort", "onBlur", "onChange", "onClick", "onDblClick",
+camelTriggers = ["onAbort", "onBlur", "onChange", "onClick", "onDblClick",
         "onDragDrop", "onError", "onFocus", "onKeyDown", "onKeyPress",
         "onKeyUp", "onLoad", "onMouseDown", "onMouseMove", "onMouseOut",
         "onMouseOver", "onMouseUp", "onMove", "onReset", "onResize", "onSelect",
-        "onSubmit", "onUnload", "Javascript", "javaScript", "JavaScript"]
+        "onSubmit", "onUnload", "javaScript"]
 
 
 def filter(data):
