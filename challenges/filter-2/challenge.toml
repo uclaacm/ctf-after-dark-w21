@@ -3,8 +3,7 @@ title = "Filter 2.0"
 author = "Stephen"
 value = 40
 description = """Okay, fine, you got me last time. But now I'm back with a better filter, and there's no way anyone is getting past *THIS* one unless they're really familiar with the tricks of the trade. 
-
-The admin has a cookie containing the flag on this [postbin](http://postbin2.acmcyber.com:10000). Report links you want the admin to visit [here](http://acmcyber.com:10001)."""
+I've got my brand-new filter ready to go, with an even more super-duper-secret cookie on this new [site](http://filter2.acmcyber.com:10000). I'm still taking links you send me [here](http://acmcyber.com:10001), just because I'm so sure that the filters are perfect this time."""
 tags = ["xss"]
 files = []
 flag = "flag{class_fil_by_XSS_pass_ter_ic}"
