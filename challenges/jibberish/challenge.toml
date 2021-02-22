@@ -1,0 +1,9 @@
+slug = "jibberish"
+title = "J!bB3r!$H"
+author = "Josh"
+value = 10
+description = """?! !@$%^%$!!!!@#@!! [!!!](<link>/jibberish)."""
+tags = ["intro"]
+files = []
+flag = "flag{wardell_stephen_curry}"
+enabled = false
