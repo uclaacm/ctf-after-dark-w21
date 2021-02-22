@@ -1,0 +1,12 @@
+slug = "csurfs-up"
+title = "csurf's up"
+author = "Aarin"
+value = 10
+description = """Unsatisfied with the his bank website's latest CSRF protection update, Bob makes another angry Karen call and demands that the website implement a different prevention technique--namely, the double submit cookie pattern. Bob tells the bank that they absolutely NEED to make their cookies expire much sooner or he will take his business elsewhere. So far, the bank has been using Node.js's csurf package to make their changes--what field should the bank set when creating the cookie to meet Bob's demands?
+
+Please format your answer as flag{answer}.
+"""
+tags = [ "trivia" ]
+files = []
+flag = "flag{maxAge}"
+enabled = true
