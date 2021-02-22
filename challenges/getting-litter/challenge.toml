@@ -1,0 +1,10 @@
+slug = "getting-litter"
+title = "Getting LITTER"
+author = "Jerry"
+value = 40
+description = """Insanity is doing the same thing over and over again and expecting different results. That's what kept on repeating in my head as I procrastinated on, once again, [another assignment](http://getting-litter.acmcyber.com:10000/).
+"""
+tags = [ "php" ]
+files = []
+flag = "flag{ch0nky_cheeks}"
+enabled = true

@@ -1,0 +1,14 @@
+body {
+    font-family: 'Lato', sans-serif;
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-right: 200px;
+}
+
+king {
+    color: gold;
+}
+
+comment {
+    color: gray;
+}

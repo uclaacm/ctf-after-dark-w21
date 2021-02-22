@@ -1,0 +1,16 @@
+slug = "king-george"
+title = "King George"
+author = "Jerry"
+value = 20
+description = """Da da da dat da, dat da da da da ya da
+
+Da da dat dat da ya da!
+
+Da da da dat da, dat da da da da ya da, da da da
+
+Dat dat da ya [da](http://king-george.acmcyber.com:10000)!
+"""
+tags = [ "php" ]
+files = []
+flag = "flag{youll_be_back_next_quarter}"
+enabled = true
