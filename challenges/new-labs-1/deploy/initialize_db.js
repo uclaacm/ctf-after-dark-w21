@@ -27,7 +27,7 @@ db.serialize(function () {
     "INSERT INTO unreachable_table VALUES('geronimo', 'abcde1234', 'I like ranch on pizza.')"
   );
   db.run(
-    "INSERT INTO unreachable_table VALUES('stewie', 'kiwitoast', 'I would rather starve than eat candy.')"
+    "INSERT INTO unreachable_table VALUES('stewie', 'flag{if_you_were_on_an_island}', 'I would rather starve than eat candy.')"
   );
   db.run("CREATE TABLE employee_passwords (name TEXT, password TEXT)");
   db.run(
