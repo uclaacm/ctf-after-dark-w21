@@ -1,0 +1,38 @@
+<html>
+   <head>
+      <link rel="stylesheet" href="./okey-dokey.css">
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+      <title>OKEY-DOKEY</title>
+   </head>
+   <body>
+      <div class="main">
+         <p class="sign" align="center">Is that true?</p>
+         <form class="form1">
+         <input class="un " type="text" align="center" placeholder="Username">
+         <input id="pass" class="pass" type="password" align="center" placeholder="Password">
+         <button id="b2" type="button" class="submit" align="center">Submit</button>
+         <script>
+            var b2 = document.getElementById('b2');
+            function doSomething() {
+            	var b1 = document.getElementById("pass").value;
+				if (b1.length == 19) {
+					if ((b1.charCodeAt(0) == 105) && (b1.charCodeAt(1) == 119) && (b1.charCodeAt(2) == 97)) 
+						if ((b1.charCodeAt(3) == 110) && (b1.charCodeAt(4) == 116) && (b1.charCodeAt(5) == 115)) 
+							if((b1.charCodeAt(6) == 48) && (b1.charCodeAt(7) == 109) && (b1.charCodeAt(8) == 51))
+								if((b1.charCodeAt(9) == 99) && (b1.charCodeAt(10) == 104) && (b1.charCodeAt(11) == 51))
+									if ((b1.charCodeAt(12) == 51) && (b1.charCodeAt(13) == 115) && (b1.charCodeAt(14) == 51))
+										if((b1.charCodeAt(15) == 99) && (b1.charCodeAt(16) == 97) && (b1.charCodeAt(17) == 107) && (b1.charCodeAt(18) == 51))
+		
+							alert('YES OKEY-DOKEY YOOO');
+				}
+            	else
+            		alert('no');
+            }
+            
+            b2.addEventListener("click", doSomething, false);	
+         </script>    
+      </div>
+   </body>
+</html>
