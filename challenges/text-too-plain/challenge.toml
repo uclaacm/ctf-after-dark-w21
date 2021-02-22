@@ -1,0 +1,12 @@
+slug = "text-too-plain"
+title = "text-too-plain"
+author = "Sophia"
+value = 10
+description = """In 2016, a company committed secure web dev sin: It stored user info, including banking details, in plaintext. Surprise surprise, this company was hacked; hackers accessed its main database server through an old server no longer in use. These hackers also used SQL injection. Not a good day for this company. What was the company's name? 
+
+Please format your answer as flag{answer}. Everything should be lowercase.
+"""
+tags = [ "trivia" ] 
+files = []
+flag = "flag{clixsense}"
+enabled = true  

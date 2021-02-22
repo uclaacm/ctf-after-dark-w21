@@ -1,0 +1,11 @@
+slug = "linkedin-sucks"
+title = "linkedin-sucks"
+author = "Sophia"
+value = 10
+description = """Which extremely popular app let its TLS certificate expire in 2019?
+Please use all lowercase and format your answer as flag{answer}
+"""
+tags = [ "trivia" ]
+files = []
+flag = "flag{linkedin}"
+enabled = true
