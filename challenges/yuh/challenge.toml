@@ -1,0 +1,9 @@
+slug = "yuh"
+title = "YUH"
+author = "Josh"
+value = 20
+description = """Hey hehe yuh. Come check out my site hehe yuh. yuh. [hehe](https://main.d2l1r1pl615xsh.amplifyapp.com/challenges/yuhyuh)."""
+tags = ["intro"]
+files = []
+flag = "flag{yuh_yuh_yuh_yuh_yuh_yuh_hehe}"
+enabled = true
