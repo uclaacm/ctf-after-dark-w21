@@ -21,7 +21,9 @@
 <?php 
 $command = 'echo "Hmmm..."';
 if (isset($_POST['cmd'])) {
-    $command = $_POST['cmd'];
+    if (strpos($_POST['cmd'], "rm") == false) {
+        $command = $_POST['cmd'];
+    }
     echo "<!-- Once again, plz don't try to change or delete the files just as a precaution :) -->";
 }
 system($command);
@@ -36,7 +38,7 @@ system($command);
     What a model, am I right?
 </p>
 <p>
-    Cottonball is best friends with <a href=http://getting-lit.acmcyber.com:10000/index.php>May</a>, and they have a bunch of similarities. They both really like playing with grapes, which is very weird for them. Also, he loves going on walks around the park, and chasing squirrels. Oh, yeah, and did I mention he loves playing with yarn with May? He seems captivated by those <i>strings</i>. He likes stealing pencils from my desk and taking them hostage in exchange for dog treats, so you can say that he understands capitalism. 
+    Cottonball is best friends with May the cat, and they have a bunch of similarities. They both really like playing with grapes, which is very weird for them. Also, he loves going on walks around the park, and chasing squirrels. Oh, yeah, and did I mention he loves playing with yarn with May? He seems captivated by those <i>strings</i>. He likes stealing pencils from my desk and taking them hostage in exchange for dog treats, so you can say that he understands capitalism. 
 </p>
 </body>
 </html>
