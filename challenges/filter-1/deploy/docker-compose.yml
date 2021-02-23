@@ -20,9 +20,3 @@ services:
       - "7003:3000"
     environment:
       - XSS_LEVEL=3
-  level4:
-    build: .
-    ports:
-      - "7004:3000"
-    environment:
-      - XSS_LEVEL=4
