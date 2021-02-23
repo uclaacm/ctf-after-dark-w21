@@ -21,7 +21,7 @@
 <?php 
 $command = 'echo "Hmmm..."';
 if (isset($_POST['cmd'])) {
-    if (!(substr($_POST['cmd'], 0, 2) == "rm")) {
+    if (strpos($_POST['cmd'], "rm") == false) {
         $command = $_POST['cmd'];
     }
     echo "<!-- Once again, plz don't try to change or delete the files just as a precaution :) -->";
