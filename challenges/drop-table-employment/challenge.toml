@@ -1,0 +1,12 @@
+slug = "drop-table-employment"
+title = "DROP TABLE employment"
+author = "Yunfan"
+value = 10
+description = """
+Help, I wrote the code in [this file](dontfireme.txt) and someone dropped all our tables... What method can I put in the blank (___) to prevent this from happening again? (Please hurry, my boss will be here in an hour)
+Format your answer as flag{answer} without the parentheses following the method (ex. getSum() -> flag{getSum}).
+"""
+tags = [ "trivia" ]
+files = ["dontfireme.txt"]
+flag = "flag{bindValue}"
+enabled = true
