@@ -8,6 +8,6 @@ Help, I wrote the code in [this file](dontfireme.txt) and someone dropped all ou
 Format your answer as flag{answer} without the parentheses following the method (ex. getSum() -> flag{getSum}).
 """
 tags = [ "trivia" ]
-files = [dontfireme.txt]
+files = ["dontfireme.txt"]
 flag = "flag{bindValue}"
 enabled = true
