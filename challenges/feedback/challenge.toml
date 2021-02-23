@@ -1,0 +1,9 @@
+slug = "feedback"
+title = "feedback"
+author = "defund"
+value = 5
+description = "We'd appreciate any feedback [here](https://forms.gle/ACfhTu9HuEN5SUbN7)!"
+tags = [ "feedback" ]
+files = []
+flag = "flag{web_exp}"
+enabled = true
